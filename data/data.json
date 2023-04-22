@@ -1,1 +1,166 @@
-{"events_categories":[{"id":"london","title":"Events in London","description":"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem","image":"https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"},{"id":"san-francisco","title":"Events in San Francisco","description":"corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate.","image":"https://images.unsplash.com/photo-1506146332389-18140dc7b2fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"},{"id":"barcelona","title":"Events in Barcelona","description":"Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.","image":"https://images.unsplash.com/photo-1579282240050-352db0a14c21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=652&q=80"}],"allEvents":[{"id":"london-comic-con-winter","title":"London Comic Con Winter","city":"London","description":"Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.","image":"https://images.unsplash.com/photo-1608889476561-6242cfdbf622?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80","emails_registered":[]},{"id":"hyde-park-winter-wonderland","title":"Hyde Park Winter Wonderland","city":"London","description":"Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.","image":"https://hydeparkwinterwonderland.com/static/252d7fe6693a6a8b1887bd2049204103/039f7/2021-503x503-3.webp","emails_registered":[]},{"id":"new-years-eve-in-london-2023","title":"New Years Eve in London 2023 ","city":"London","description":"Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.","image":"https://images.unsplash.com/photo-1521478413868-1bbd982fa4a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80","emails_registered":[]},{"id":"'edtech-world-summit-2022","title":"EdTech World Summit 2022","city":"london","description":"Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.","image":"https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80","emails_registered":["alicia@gmail.com","monica@gmail.com","nicolasbonder@gmail.com","vefve","vefve@","vvv@","vdvd@","test@"]},{"id":"sigala-at-electric-brixton","title":"Sigala at Electric Brixton","city":"london","description":"Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.","image":"https://images.unsplash.com/photo-1478147427282-58a87a120781?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80","emails_registered":["monica@gmail.com"]},{"id":"kiss-haunted-house-party-2022","title":"KISS Haunted House Party 2022","city":"london","description":"Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.","image":"https://wembleypark.com/media/images/KISS-HHP-42-1440x810-Logos-Date-de.2e16d0ba.fill-496x279.jpg","emails_registered":[]},{"id":"sf-blockchain-week","title":"SF Blockchain Week","city":"san-francisco","description":"Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.","image":"https://images.unsplash.com/photo-1516245834210-c4c142787335?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80","emails_registered":["","","","laura@gmail.com","laura@gmail.com","laura@gmail.com"]},{"id":"innovation-summit-san-francisco","title":"Innovation Summit San Francisco","city":"san-francisco","description":"Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.","image":"https://images.unsplash.com/photo-1521464302861-ce943915d1c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80","emails_registered":[]},{"id":"fan-expo-san-francisco","title":"FAN EXPO San Francisco","city":"san-francisco","description":"Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.","image":"https://images.unsplash.com/photo-1608889825103-eb5ed706fc64?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80","emails_registered":[]},{"id":"san-francisco-opera---san-francisco-tickets","title":"San Francisco Opera - San Francisco Tickets","city":"san-francisco","description":"Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.","image":"https://images.unsplash.com/photo-1580809361436-42a7ec204889?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80","emails_registered":[]},{"id":"concert-christian-löffler-+-detect-ensemble","title":"Concert Christian Löffler + Detect Ensemble","city":"barcelona","description":"Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.","image":"https://images.unsplash.com/photo-1478147427282-58a87a120781?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80","emails_registered":["alicia@gmail.com","monica@gmail.com"]},{"id":"the-halloween-house-party","title":"The Halloween House Party","city":"barcelona","description":"Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.","image":"https://images.unsplash.com/photo-1587407627257-27b7127c868c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80","emails_registered":["alicia@gmail.com","monica@gmail.com","david@yahoo.com","claire@ss.com"]},{"id":"international-conference-on-industrial-design","title":"International Conference on Industrial Design","city":"barcelona","description":"Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.","image":"https://images.unsplash.com/photo-1475721027785-f74eccf877e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80","emails_registered":["alicia@gmail.com","monica@gmail.com"]},{"id":"world-congress-2022---barcelona","title":"World Congress 2022 - Barcelona","city":"barcelona","description":"Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.","image":"https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80","emails_registered":["alicia@gmail.com","monica@gmail.com","test@","test2@test.com","test3@test.com"]},{"id":"riskminds-international","title":"RiskMinds International","city":"barcelona","description":"Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.","image":"https://images.unsplash.com/photo-1591115765373-5207764f72e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80","emails_registered":["alicia@gmail.com","monica@gmail.com"]}]}
+{
+  "events_categories": [
+    {
+      "id": "barcelona",
+      "title": "Events in Barcelona",
+      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+      "image": "https://images.unsplash.com/photo-1593368858664-a7fe556ab936?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+    },
+    {
+      "id": "london",
+      "title": "Events in London",
+      "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem",
+      "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "id": "san-francisco",
+      "title": "Events in San Francisco",
+      "description": "corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate.",
+      "image": "https://images.unsplash.com/photo-1610312278520-bcc893a3ff1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=847&q=80"
+    }
+  ],
+  "allEvents": [
+    {
+        "id": "London-Marathon",
+        "title": "London Marathon",
+        "city": "london",
+        "description": "Annual marathon through the streets of London",
+        "image": "https://images.unsplash.com/photo-1613937574892-25f441264a09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "emails_registered": ["john@example.com", "jane@example.com"],
+        "sport": "marathon"
+      },
+      {
+        "id": "barca-tennis",
+        "title": "Barcelona Tennis Open",
+        "city": "barcelona",
+        "description": "Annual tennis tournament featuring top players",
+        "image": "https://images.unsplash.com/photo-1581079708051-9784b310349f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=853&q=80",
+        "emails_registered": ["david@example.com", "maria@example.com"],
+        "sport": "tennis"
+      },
+      {
+        "id": "frisco-rugny",
+        "title": "San Francisco Rugby Sevens",
+        "city": "san-francisco",
+        "description": "Annual rugby tournament featuring top teams",
+        "image": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "emails_registered": ["sam@example.com", "olivia@example.com"],
+        "sport": "rugby"
+      },
+      {
+        "id": "wimbledon-tennis",
+        "title": "Wimbledon Tennis Championships",
+        "city": "london",
+        "description": "Annual tennis tournament featuring top players",
+        "image": "https://images.unsplash.com/photo-1544298621-a28c00544483?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=389&q=80",
+        "emails_registered": ["david@example.com", "maria@example.com", "john@example.com"],
+        "sport": "tennis"
+      },
+      {
+        "id": "barca-derby",
+        "title": "Barcelona Football Derby",
+        "city": "barcelona",
+        "description": "Annual football match between Barcelona and Espanyol",
+        "image": "https://images.unsplash.com/photo-1595030044556-acfaa61edc0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "emails_registered": ["paul@example.com", "ana@example.com"],
+        "sport": "football"
+      },
+      {
+        "id": "london-final",
+        "title": "London Football Cup Final",
+        "city": "london",
+        "description": "Annual football cup final at Wembley Stadium",
+        "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "emails_registered": ["paul@example.com", "ana@example.com", "jane@example.com"],
+        "sport": "football"
+      },
+      {
+        "id": "frisco-champ",
+        "title": "San Francisco Rugby Championships",
+        "city": "san-francisco",
+        "description": "Annual rugby championships featuring top teams",
+        "image": "https://images.unsplash.com/photo-1517340650606-17091f8e86ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "emails_registered": ["sam@example.com", "olivia@example.com", "john@example.com"],
+        "sport": "rugby"
+      },
+      {
+        "id": "barca-master",
+        "title": "Barcelona Tennis Masters",
+        "city": "barcelona",
+        "description": "Annual tennis tournament featuring top players",
+        "image": "https://images.unsplash.com/photo-1480180566821-a7d525cdfc5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "emails_registered": ["david@example.com", "maria@example.com", "jane@example.com"],
+        "sport": "tennis"
+      },
+      {
+        "id": "london-run",
+        "title": "London Marathon Charity Run",
+        "city": "london",
+        "description": "Annual charity run through the streets of London",
+        "image": "https://images.unsplash.com/photo-1596727362302-b8d891c42ab8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=785&q=80",
+        "emails_registered": ["john@example.com"],
+        "sport": "marathon"
+      },
+      {
+        "id": "wimbledon-tennis-2",
+        "title": "Wimbledon Tennis Championships",
+        "city": "london",
+        "description": "The Wimbledon Championships is the oldest tennis tournament in the world, and widely considered the most prestigious.",
+        "image": "https://images.unsplash.com/photo-1568060835183-1ab3240b1008?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+        "emails_registered": [
+          "alex@example.com",
+          "lisa@example.com",
+          "jim@example.com"
+        ],
+        "sport": "tennis"
+      },
+      {
+        "id": "barca-marathon",
+        "title": "Barcelona Marathon",
+        "city": "barcelona",
+        "description": "The Barcelona Marathon is a long-distance running event held in Barcelona, Spain.",
+        "image": "https://images.unsplash.com/photo-1613936360976-8f35cf0e5461?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80",
+        "emails_registered": [
+          "marta@example.com",
+          "juan@example.com",
+          "paul@example.com"
+        ],
+        "sport": "marathon"
+      },
+      {
+        "id": "el-clasico",
+        "title": "FC Barcelona vs Real Madrid",
+        "city": "barcelona",
+        "description": "El Clásico is the name given to the football match between FC Barcelona and Real Madrid. It is considered one of the biggest club football matches in the world.",
+        "image": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "emails_registered": [
+          "jose@example.com",
+          "carla@example.com",
+          "pablo@example.com"
+        ],
+        "sport": "football"
+      },
+      {
+        "id": "frisco-marathon",
+        "title": "San Francisco Marathon",
+        "city": "san-francisco",
+        "description": "The San Francisco Marathon is a long-distance running event held in San Francisco, California.",
+        "image": "https://images.unsplash.com/photo-1524646349956-1590eacfa324?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "emails_registered": [
+          "marie@example.com",
+          "edward@example.com",
+          "sara@example.com"
+        ],
+        "sport": "marathon"
+      },
+      {
+        "id": "frisco-world-cup",
+        "title": "San Francisco Rugby World Cup",
+        "city": "san-francisco",
+        "description": "Watch the top rugby teams from around the world battle it out for the championship title.",
+        "image": "https://images.unsplash.com/photo-1529663297269-6d349ec39b57?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "emails_registered": ["sam@example.com", "olivia@example.com", "john@example.com"],
+        "sport": "rugby"
+      }
+  ]
+}

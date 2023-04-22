@@ -27,7 +27,7 @@ export async function getStaticProps(context){
     const id = context.params.id;
     const { allEvents } = await import('/data/data.json'); //hacer esto es lo mismo q lo de la linea 10 y 11
     const eventData = allEvents.find((ev) => id === ev.id);
-
+    console.log('eventData', eventData);
 
     return {
         props: { data: eventData },
