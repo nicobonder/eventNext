@@ -4,20 +4,51 @@ import { useRouter } from "next/router";
 import auth from "../../../firebase/auth";
 import firebaseManage from "../../../firebase/firebase_manage";
 
+import Swal from "sweetalert2";
+
+//FUNCION VALIDADORA
+function validate(input) {  //va a recibir el estado input con los cambios detectados por los handlers
+  let errors = {};  //objeto que guarda todos los errores y le agrego props con los nombres iguales a los del input
+  if (!input.email) {
+  errors.email = 'You must enter an mail'
+} if (!/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(input.email)) { // eslint-disable-next-line
+  errors.email = 'It must be a valid email'
+}  else if (!input.password) {
+  errors.password = 'You need you enter a password'
+} else if (!/^(?=.*\d).{6,8}$$/.test(input.password)) {
+  errors.password = 'It should have between 6 and 8 characters. And must includ a number.'
+}
+    return errors;  //se retorna el obj errors con la prop y el string correspondiente. ej: let errors ={name: 'a name is required'}
+  }
+
 export default function SingleEvent({ data }) {
-  console.log("info", data);
   // const inputEmail = useRef();
   // const inputName = useRef();
   const [message, setMessage] = useState("");
   const [regEmail, setRegEmail] = React.useState("");
   const [regPass, setRegPass] = React.useState("");
+  const [errors, setErrors] = useState({ e: '' });
+
+  const [input, setInput] = useState({
+    email: "",
+    password: "", 
+  })
+
+  const EmailUsed = () => {
+    Swal.fire({
+      // imageUrl: Error_Search,
+      imageHeight: 150,
+      imageWidth: 200,
+      imageAlt: "Email usado.",
+      title: "Yazz",
+      html: "<h3>Ese email ya está registrado</h3>",
+      footer: "<p>Probá con otro email.</p>",
+    });
+  };
 
   const onSubmit = async (e) => {
     e.preventDefault();
-    // const emailValue = inputEmail.current.value;
-    // const nameValue = inputName.current.value;
     //const eventId = router?.query.id;
-    //const eventName = data.title;
 
     const validRegex =
       /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
