@@ -1,3 +1,4 @@
+import { createContext, useContext } from 'react';
 import firebase from './config';
 
 import { getAuth
@@ -7,21 +8,43 @@ import { getAuth
     , createUserWithEmailAndPassword  
 } from "firebase/auth";
 
-const registrerWithEmail = async (email, password) => {
-    const auth = getAuth(); 
-    console.log('auth en register', auth);
-    return createUserWithEmailAndPassword(auth, email, password).then((userCredential) => { 
-        const user = userCredential.user;  
-        console.log('user en register', user);
-        return { user }
-    }).catch((error) => { 
-        const errorCode = error.code;
-        const errorMessage = error.message;  
-        return { 
-            error: errorCode + ': your error is' + errorMessage
-        }
-    })
-}
+const UserContext = createContext("");
+export const UserAuth = () => {
+    return useContext(UserContext);
+  };
+
+  export const AuthContextProvider = ({ children }) => {
+        const createUser = (email, password) => {
+            return createUserWithEmailAndPassword(auth, email, password);
+          };
+
+    const authState = async (userFnc) => {
+        const auth = getAuth();
+        onAuthStateChanged(auth, userFnc); 
+        console.log('auth en estado del usuario', auth.currentUser?.email);
+    }
+    
+    const getCurrentUser = () => { 
+        const auth = getAuth();
+        const user = auth.currentUser; 
+        console.log('current user', user);
+        return user 
+     }
+    
+    const userStateListener = (callback) => {return onAuthStateChanged(auth, callback);};
+    
+    return (
+        <UserContext.Provider value={{ createUser,
+            // signWithEmail,
+            //signOutUser,
+            getCurrentUser,
+            authState,
+            userStateListener }}>
+          {children}
+        </UserContext.Provider>
+      );
+  }
+
 
 // const signWithEmail = async (signInEmail, signInPassword) => { 
 //     const auth = getAuth();
@@ -54,26 +77,12 @@ const registrerWithEmail = async (email, password) => {
 //       })
 // }
 
-const authState = async (userFnc) => {
-    const auth = getAuth();
-    onAuthStateChanged(auth, userFnc); 
-    console.log('auth en estado del usuario', auth.currentUser?.email);
-}
-
-const getCurrentUser = () => { 
-    const auth = getAuth();
-    const user = auth.currentUser; 
-    console.log('current user', user);
-    return user 
- }
-
-const userStateListener = (callback) => {return onAuthStateChanged(auth, callback);};
   
-export default { 
-    registrerWithEmail,
-    // signWithEmail,
-    //signOutUser,
-    getCurrentUser,
-    authState,
-    userStateListener
-}
+// export default { 
+//     registrerWithEmail,
+//     // signWithEmail,
+//     //signOutUser,
+//     getCurrentUser,
+//     authState,
+//     userStateListener
+// }

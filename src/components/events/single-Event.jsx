@@ -22,6 +22,7 @@ function validate(input) {  //va a recibir el estado input con los cambios detec
   }
 
 export default function SingleEvent({ data }) {
+  console.log("info", data);
   // const inputEmail = useRef();
   // const inputName = useRef();
   const [message, setMessage] = useState("");
