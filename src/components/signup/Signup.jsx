@@ -84,32 +84,32 @@ export default function Signup() {
 
   return (
     <div className="signup_page">
-      <h1>Sign Up</h1>
 
       <form className="signup_form" onSubmit={handleSubmit}>
-        <div>
+        <div className="input_wrap">
           <label className="label_form">Email adress</label>
           <input
             onChange={(e) => setEmail(e.target.value)}
             className="input_form"
             type="email"
+            placeholder="Enter your email"
           />
         </div>
 
-        <div>
-          <label className="label_form">Password</label>
+        <div className="input_wrap">
+          <label className="label_form">Password:</label>
           <input
             onChange={(e) => setPassword(e.target.value)}
             className="input_form"
             type="password"
+            minLength="6"
+            placeholder="Enter your Password"
           />
         </div>
 
-        <button className="sign_btn">Sign Up</button>
+        <button className="sign_btn">Register!</button>
+        <p>If you register, you will receive our newsletter with all the information about new events!</p>
       </form>
-
-      <h2>Do you want to Signuot?</h2>
-      <button onClick={goToAccount}>Go to account</button>
     </div>
   );
 }

@@ -24,6 +24,12 @@ header
                     color: white
                     cursor: pointer
                     font-size: 1.3rem
+                .account_icon
+                    &:hover
+                        fill: white
+                        cursor: pointer
+                        width: 19
+                        height: 19
     .page_title
         text-align: center
         text-transform: uppercase
@@ -88,7 +94,7 @@ main
             font-size: 1.4rem
             margin-bottom: 0.6rem    
         li
-            padding-rigth: 0.2rem
+            padding-right: 0.2rem
             width: 30%
             .about_text
                 text-align: justify
@@ -214,3 +220,72 @@ main
                     color: white
                     background: black
                     cursor: pointer
+
+.account_page
+    font-family: 'Nunito', sans-serif
+    min-height: 64.5vh
+    width: 100%
+    display: flex
+    flex-direction: column
+    align-items: center
+    flex-grow: 1
+    h1
+        margin-bottom:1.5rem
+        font-size: 2rem
+        font-weight: 600
+        text-align: center
+    h2
+        font-size: 1.5rem
+        margin-bottom: 2.5rem
+        text-align: center
+    .registered_user
+        display: flex
+    .not_registered_user
+        display: flex
+        width: 80%
+        justify-content: space-between
+        .form_container
+            width: 40%
+.signIn_wrap, .signup_page
+    width: 100%
+    h3
+        margin-bottom: 0.8rem
+    .signup_form
+        .input_wrap
+            display: flex
+            width: 100%
+            height: 1.5rem
+            align-items: center
+            margin-bottom: 0.5rem
+            label
+                width: 40%
+                margin-right: 0.5rem
+            input
+                width: 58%
+                height: 1.5rem
+                padding-left: 0.2rem
+                font-size: 0.9rem
+                background: transparent
+                border-radius: 0.2rem
+                &::placeholder 
+                    padding-left: 0.2rem
+                    font-size: 0.9rem
+        .sign_btn
+            width: 100%
+            height: 2rem
+            margin-top: 1rem
+            background: linear-gradient(144deg, #000, #FFC722)
+            border: 1px solid black 
+            font-weight: 600
+            font-size: 1.1rem
+            border-radius: 3px
+            transition: 0.3s all
+            color: white
+            &:hover
+                color: white
+                background: black
+                cursor: pointer
+        p
+            margin-top: 0.5rem
+            font-size: 0.9rem
+            text-align: justify

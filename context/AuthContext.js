@@ -13,6 +13,20 @@ const UserContext = createContext();
 
 export const AuthContextProvider = ({ children }) => {
   const [user, setUser] = useState({});
+  const [authState, setAuthState] = useState({
+    token: "",
+   });
+   
+   const setUserAuthInfo = ({ data }) => {
+    const token = localStorage.setItem("token", data.data);
+ 
+    setAuthState({
+     token,
+    });
+  };
+
+  const isUserAuthenticated = () => !!authState.token;
+
     const createUser = (email, password) => {
         return createUserWithEmailAndPassword(auth, email, password);
     }
@@ -43,9 +57,10 @@ export const AuthContextProvider = ({ children }) => {
         createUser, user,
        signIn,
        logout,
-        // getCurrentUser,
-        // authState,
-        // userStateListener,
+       authState,
+      setAuthState: (userAuthInfo) => setUserAuthInfo(userAuthInfo),
+      isUserAuthenticated,
+       
       }}
     >
       {children}

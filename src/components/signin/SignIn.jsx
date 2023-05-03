@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 //Importo UserAuth para tener las funciones de AuthContext
 import { UserAuth } from "@/context/AuthContext";
 import { useRouter } from "next/router";
@@ -14,7 +14,7 @@ export default function SignIn() {
 
   const router = useRouter();
 
-  const { signIn } = UserAuth();
+  const { signIn, isUserAuthenticated } = UserAuth();
 
   const userNotFound = () => {  
     Swal.fire({
@@ -39,6 +39,14 @@ export default function SignIn() {
         footer: "<p>Please, try again.</p>",
     });
   };
+
+  // useEffect(() => {
+  //   // checks if the user is authenticated
+  //   !!isUserAuthenticated()
+  //   ? router.push("/signin")
+  //   : router.push("/");
+  // }, []);
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -66,24 +74,25 @@ export default function SignIn() {
   };
 
   return (
-    <div>
-      <h1>Sign In</h1>
+    <div className="signIn_wrap">
       <form className="signup_form" onSubmit={handleSubmit}>
-        <div>
-          <label className="label_form">Email adress</label>
+        <div className="input_wrap">
+          <label className="label_form">Email adress:</label>
           <input
             onChange={(e) => setEmail(e.target.value)}
             className="input_form"
             type="email"
+            placeholder="Enter your email"
           />
         </div>
 
-        <div>
-          <label className="label_form">Password</label>
+        <div className="input_wrap">
+          <label className="label_form">Password:</label>
           <input
             onChange={(e) => setPassword(e.target.value)}
             className="input_form"
             type="password"
+            placeholder="Enter your Password"
           />
         </div>
 
