@@ -107,7 +107,7 @@ export default function Signup() {
           />
         </div>
 
-        <button className="sign_btn">Register!</button>
+        <button className="signup_btn">Register!</button>
         <p>If you register, you will receive our newsletter with all the information about new events!</p>
       </form>
     </div>

@@ -98,6 +98,7 @@ export default function SignIn() {
 
         <button className="sign_btn">Sign In</button>
       </form>
+      <div className="separator"></div>
     </div>
   );
 }
