@@ -25,38 +25,38 @@ export default function SingleEvent({ data }) {
   console.log("info", data);
   // const inputEmail = useRef();
   // const inputName = useRef();
-  const [message, setMessage] = useState("");
-  const [regEmail, setRegEmail] = React.useState("");
-  const [regPass, setRegPass] = React.useState("");
-  const [errors, setErrors] = useState({ e: '' });
+  // const [message, setMessage] = useState("");
+  // const [regEmail, setRegEmail] = React.useState("");
+  // const [regPass, setRegPass] = React.useState("");
+  // const [errors, setErrors] = useState({ e: '' });
 
-  const [input, setInput] = useState({
-    email: "",
-    password: "", 
-  })
+  // const [input, setInput] = useState({
+  //   email: "",
+  //   password: "", 
+  // })
 
-  const EmailUsed = () => {
-    Swal.fire({
-      // imageUrl: Error_Search,
-      imageHeight: 150,
-      imageWidth: 200,
-      imageAlt: "Email usado.",
-      title: "Yazz",
-      html: "<h3>Ese email ya está registrado</h3>",
-      footer: "<p>Probá con otro email.</p>",
-    });
-  };
+  // const EmailUsed = () => {
+  //   Swal.fire({
+  //     // imageUrl: Error_Search,
+  //     imageHeight: 150,
+  //     imageWidth: 200,
+  //     imageAlt: "Email usado.",
+  //     title: "Yazz",
+  //     html: "<h3>Ese email ya está registrado</h3>",
+  //     footer: "<p>Probá con otro email.</p>",
+  //   });
+  // };
 
-  const onSubmit = async (e) => {
-    e.preventDefault();
-    //const eventId = router?.query.id;
+  // const onSubmit = async (e) => {
+  //   e.preventDefault();
+  //   //const eventId = router?.query.id;
 
-    const validRegex =
-      /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-    if (!regEmail.match(validRegex)) {
-      setMessage("Please, introduce a correct email adress.");
-    }
-  };
+  //   const validRegex =
+  //     /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+  //   if (!regEmail.match(validRegex)) {
+  //     setMessage("Please, introduce a correct email adress.");
+  //   }
+  // };
 
   return (
     <div className="single_event_page">
@@ -71,7 +71,7 @@ export default function SingleEvent({ data }) {
       <p>{data.description}</p>
 
       {/* form para registrarse en el newsletter */}
-      <form className="email_registration">
+      {/* <form className="email_registration">
         <h3>Do you want to receive news about Next Event?</h3>
         <label className="email_label">Get registered for or newsletter!</label>
         <div className="email_input">
@@ -122,7 +122,7 @@ export default function SingleEvent({ data }) {
           </button>
         </div>
       </form>
-      <p>{message}</p>
+      <p>{message}</p> */}
     </div>
   );
 }

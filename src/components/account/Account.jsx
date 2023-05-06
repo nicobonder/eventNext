@@ -22,7 +22,7 @@ export default function Account() {
     try {
       await logout();
       logoutMessage();
-      router.push("/");
+      router.push("/account");
     } catch (error) {
       console.log(error.message);
     }
@@ -33,12 +33,11 @@ export default function Account() {
       <h1>Account</h1>
       {user ? (
         <>
+        
           <div className="registered_user">
             <h2>User email: {user && user.email}</h2>
-          </div>
-          <div>
-            <h2>Do you want to Signuot?</h2>
-            <button onClick={handleLogOut}>Log out</button>
+            <h3>Do you want to Signuot?</h3>
+            <button className="logout_btn" onClick={handleLogOut}>Log out</button>
           </div>
         </>
       ) : (
